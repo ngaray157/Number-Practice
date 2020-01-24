@@ -1,0 +1,23 @@
+html{
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: darkblue;
+    width: 85%;
+    margin: 0px auto;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: skyblue;
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
