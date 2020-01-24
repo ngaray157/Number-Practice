@@ -59,10 +59,6 @@ function range(){
     output.innerHTML = large - small;
 }
 
-function mode(){
-}
-
-
 function leastGreat(){
     var number1 = parseFloat(num1.value);
     var number2 = parseFloat(num2.value);
@@ -154,3 +150,32 @@ function leastGreat(){
 
     output.innerHTML = o1 + ", " + o2 + ", " + o3 + ", " + o4 + ", " + o5 + ", " + o6;
 }
+
+function mode(){
+    var number1 = parseFloat(num1.value);
+    var number2 = parseFloat(num2.value);
+    var number3 = parseFloat(num3.value);
+    var number4 = parseFloat(num4.value);
+    var number5 = parseFloat(num5.value);
+    var number6 = parseFloat(num6.value);
+
+    var n1 = 1;
+    var n2 = 1;
+    var n3 = 1;
+    var n4 = 1;
+    var n5 = 1;
+    var n6 = 1;
+
+    if(n1 === number1){
+        n1++;s
+    }
+}
+
+
+//----UNIQUE NUMBERS----
+
+
+
+
+
+//----DUPLICATE----
