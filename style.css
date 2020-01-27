@@ -1,23 +1,56 @@
 html{
-    background-color: gray;
-    padding: 0px;
-    margin: 0px;
+    font-family: 'Dosis', sans-serif;
+    /* margin: auto; */
 }
 
 body{
-    background-color: darkblue;
-    width: 85%;
-    margin: 0px auto;
-}
-h2{
-    padding: 0px;
-    margin: 0px;
+    background: linear-gradient(#461220, #b23a48) no-repeat fixed center;
+    
 }
 
-header{
-    background-color: skyblue;
-    color: white;
-    font-size: 1.6em;
+h2{
+    color: #fed0bb;
+    text-shadow: 0px 0px 50px #fcb9b2;
+   text-decoration: underline; 
+   text-align: center;
+   font-size: 4em;
+   font-weight: bold;
+}
+
+form{
+    color: #fcb9b2;
+    text-shadow: 0px 0px 30px white;
     text-align: center;
-    padding: 5px 0px 5px 0px;
+    font-size: 2em;
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    box-shadow: inset 0px 0px 100px #8c2f39;
+    background-color: #fed0bb;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #461220;
+    text-shadow: 0px 0px 10px #b23a48;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+
+button{
+    color: #b23a48;
+    font-weight: bold;
+    background-color: #fed0bb;
+    height: 80px;
+    width: 160px;
+    margin: 25px;
+    border: solid 2px silver;
+    box-shadow: inset 0px 0px 100px #8c2f39;
+    font-size: 0.6em;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #fcb9b2;
 }
